@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Challenge" representedClassName="Challenge" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creationTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="challengebook" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ChallengeBook" inverseName="challenge" inverseEntity="ChallengeBook" syncable="YES"/>
+    </entity>
+    <entity name="ChallengeBook" representedClassName="ChallengeBook" syncable="YES">
+        <attribute name="creationTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="challenge" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Challenge" inverseName="challengebook" inverseEntity="Challenge" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Challenge" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="ChallengeBook" positionX="-414" positionY="-45" width="128" height="88"/>
+    </elements>
+</model>

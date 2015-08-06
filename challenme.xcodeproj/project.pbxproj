@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A065297C1AEDB79900CB5ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A065297B1AEDB79900CB5ABC /* AppDelegate.swift */; };
+		A065297F1AEDB79900CB5ABC /* challenme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A065297D1AEDB79900CB5ABC /* challenme.xcdatamodeld */; };
+		A06529811AEDB79900CB5ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06529801AEDB79900CB5ABC /* ViewController.swift */; };
+		A06529841AEDB79900CB5ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06529821AEDB79900CB5ABC /* Main.storyboard */; };
+		A06529861AEDB79900CB5ABC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06529851AEDB79900CB5ABC /* Images.xcassets */; };
+		A06529891AEDB79900CB5ABC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06529871AEDB79900CB5ABC /* LaunchScreen.xib */; };
+		A06529951AEDB79A00CB5ABC /* challenmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06529941AEDB79A00CB5ABC /* challenmeTests.swift */; };
+		A06529A21AEDCD6200CB5ABC /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06529A11AEDCD6200CB5ABC /* CoreDataHelper.swift */; };
+		A06529AD1AEDDD9900CB5ABC /* ChallengeOverviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06529AC1AEDDD9900CB5ABC /* ChallengeOverviewTableViewController.swift */; };
+		A06529AF1AEDE26600CB5ABC /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06529AE1AEDE26600CB5ABC /* ChallengeViewController.swift */; };
+		A06529B11AEDE78100CB5ABC /* ChallengeBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06529B01AEDE78100CB5ABC /* ChallengeBookTableViewController.swift */; };
+		A06529C11AEDEB6F00CB5ABC /* Challenge.m in Sources */ = {isa = PBXBuildFile; fileRef = A06529C01AEDEB6F00CB5ABC /* Challenge.m */; };
+		A06529C41AEDEB6F00CB5ABC /* ChallengeBook.m in Sources */ = {isa = PBXBuildFile; fileRef = A06529C31AEDEB6F00CB5ABC /* ChallengeBook.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A065298F1AEDB79900CB5ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A065296E1AEDB79900CB5ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A06529751AEDB79900CB5ABC;
+			remoteInfo = challenme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A06529761AEDB79900CB5ABC /* challenme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = challenme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A065297A1AEDB79900CB5ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A065297B1AEDB79900CB5ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A065297E1AEDB79900CB5ABC /* challenme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = challenme.xcdatamodel; sourceTree = "<group>"; };
+		A06529801AEDB79900CB5ABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A06529831AEDB79900CB5ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A06529851AEDB79900CB5ABC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A06529881AEDB79900CB5ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A065298E1AEDB79900CB5ABC /* challenmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = challenmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06529931AEDB79A00CB5ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06529941AEDB79A00CB5ABC /* challenmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenmeTests.swift; sourceTree = "<group>"; };
+		A065299E1AEDB7A700CB5ABC /* challenme.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = challenme.entitlements; sourceTree = "<group>"; };
+		A06529A11AEDCD6200CB5ABC /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = SOURCE_ROOT; };
+		A06529AC1AEDDD9900CB5ABC /* ChallengeOverviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeOverviewTableViewController.swift; sourceTree = "<group>"; };
+		A06529AE1AEDE26600CB5ABC /* ChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		A06529B01AEDE78100CB5ABC /* ChallengeBookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeBookTableViewController.swift; sourceTree = "<group>"; };
+		A06529BF1AEDEB6F00CB5ABC /* Challenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Challenge.h; sourceTree = "<group>"; };
+		A06529C01AEDEB6F00CB5ABC /* Challenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge.m; sourceTree = "<group>"; };
+		A06529C21AEDEB6F00CB5ABC /* ChallengeBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeBook.h; sourceTree = "<group>"; };
+		A06529C31AEDEB6F00CB5ABC /* ChallengeBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeBook.m; sourceTree = "<group>"; };
+		A06529C51AEDEBBA00CB5ABC /* challenme-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "challenme-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A06529731AEDB79900CB5ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A065298B1AEDB79900CB5ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A065296D1AEDB79900CB5ABC = {
+			isa = PBXGroup;
+			children = (
+				A06529781AEDB79900CB5ABC /* challenme */,
+				A06529911AEDB79A00CB5ABC /* challenmeTests */,
+				A06529771AEDB79900CB5ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A06529771AEDB79900CB5ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A06529761AEDB79900CB5ABC /* challenme.app */,
+				A065298E1AEDB79900CB5ABC /* challenmeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A06529781AEDB79900CB5ABC /* challenme */ = {
+			isa = PBXGroup;
+			children = (
+				A06529C21AEDEB6F00CB5ABC /* ChallengeBook.h */,
+				A06529C31AEDEB6F00CB5ABC /* ChallengeBook.m */,
+				A06529C51AEDEBBA00CB5ABC /* challenme-Bridging-Header.h */,
+				A06529BF1AEDEB6F00CB5ABC /* Challenge.h */,
+				A06529C01AEDEB6F00CB5ABC /* Challenge.m */,
+				A065299E1AEDB7A700CB5ABC /* challenme.entitlements */,
+				A06529A11AEDCD6200CB5ABC /* CoreDataHelper.swift */,
+				A065297B1AEDB79900CB5ABC /* AppDelegate.swift */,
+				A06529B01AEDE78100CB5ABC /* ChallengeBookTableViewController.swift */,
+				A06529AC1AEDDD9900CB5ABC /* ChallengeOverviewTableViewController.swift */,
+				A06529AE1AEDE26600CB5ABC /* ChallengeViewController.swift */,
+				A06529801AEDB79900CB5ABC /* ViewController.swift */,
+				A06529821AEDB79900CB5ABC /* Main.storyboard */,
+				A06529851AEDB79900CB5ABC /* Images.xcassets */,
+				A06529871AEDB79900CB5ABC /* LaunchScreen.xib */,
+				A065297D1AEDB79900CB5ABC /* challenme.xcdatamodeld */,
+				A06529791AEDB79900CB5ABC /* Supporting Files */,
+			);
+			path = challenme;
+			sourceTree = "<group>";
+		};
+		A06529791AEDB79900CB5ABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A065297A1AEDB79900CB5ABC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A06529911AEDB79A00CB5ABC /* challenmeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A06529941AEDB79A00CB5ABC /* challenmeTests.swift */,
+				A06529921AEDB79A00CB5ABC /* Supporting Files */,
+			);
+			path = challenmeTests;
+			sourceTree = "<group>";
+		};
+		A06529921AEDB79A00CB5ABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A06529931AEDB79A00CB5ABC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A06529751AEDB79900CB5ABC /* challenme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A06529981AEDB79A00CB5ABC /* Build configuration list for PBXNativeTarget "challenme" */;
+			buildPhases = (
+				A06529721AEDB79900CB5ABC /* Sources */,
+				A06529731AEDB79900CB5ABC /* Frameworks */,
+				A06529741AEDB79900CB5ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenme;
+			productName = challenme;
+			productReference = A06529761AEDB79900CB5ABC /* challenme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A065298D1AEDB79900CB5ABC /* challenmeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A065299B1AEDB79A00CB5ABC /* Build configuration list for PBXNativeTarget "challenmeTests" */;
+			buildPhases = (
+				A065298A1AEDB79900CB5ABC /* Sources */,
+				A065298B1AEDB79900CB5ABC /* Frameworks */,
+				A065298C1AEDB79900CB5ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A06529901AEDB79900CB5ABC /* PBXTargetDependency */,
+			);
+			name = challenmeTests;
+			productName = challenmeTests;
+			productReference = A065298E1AEDB79900CB5ABC /* challenmeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A065296E1AEDB79900CB5ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Fangyi Chen";
+				TargetAttributes = {
+					A06529751AEDB79900CB5ABC = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = FQ22F98E6U;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					A065298D1AEDB79900CB5ABC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A06529751AEDB79900CB5ABC;
+					};
+				};
+			};
+			buildConfigurationList = A06529711AEDB79900CB5ABC /* Build configuration list for PBXProject "challenme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A065296D1AEDB79900CB5ABC;
+			productRefGroup = A06529771AEDB79900CB5ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A06529751AEDB79900CB5ABC /* challenme */,
+				A065298D1AEDB79900CB5ABC /* challenmeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A06529741AEDB79900CB5ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06529841AEDB79900CB5ABC /* Main.storyboard in Resources */,
+				A06529891AEDB79900CB5ABC /* LaunchScreen.xib in Resources */,
+				A06529861AEDB79900CB5ABC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A065298C1AEDB79900CB5ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A06529721AEDB79900CB5ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06529811AEDB79900CB5ABC /* ViewController.swift in Sources */,
+				A06529C41AEDEB6F00CB5ABC /* ChallengeBook.m in Sources */,
+				A06529C11AEDEB6F00CB5ABC /* Challenge.m in Sources */,
+				A06529AF1AEDE26600CB5ABC /* ChallengeViewController.swift in Sources */,
+				A06529B11AEDE78100CB5ABC /* ChallengeBookTableViewController.swift in Sources */,
+				A065297C1AEDB79900CB5ABC /* AppDelegate.swift in Sources */,
+				A06529A21AEDCD6200CB5ABC /* CoreDataHelper.swift in Sources */,
+				A06529AD1AEDDD9900CB5ABC /* ChallengeOverviewTableViewController.swift in Sources */,
+				A065297F1AEDB79900CB5ABC /* challenme.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A065298A1AEDB79900CB5ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06529951AEDB79A00CB5ABC /* challenmeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A06529901AEDB79900CB5ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A06529751AEDB79900CB5ABC /* challenme */;
+			targetProxy = A065298F1AEDB79900CB5ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A06529821AEDB79900CB5ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A06529831AEDB79900CB5ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A06529871AEDB79900CB5ABC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A06529881AEDB79900CB5ABC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A06529961AEDB79A00CB5ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A06529971AEDB79A00CB5ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A06529991AEDB79A00CB5ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = challenme/challenme.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = challenme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "challenme/challenme-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A065299A1AEDB79A00CB5ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = challenme/challenme.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = challenme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "challenme/challenme-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A065299C1AEDB79A00CB5ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = challenmeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenme.app/challenme";
+			};
+			name = Debug;
+		};
+		A065299D1AEDB79A00CB5ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = challenmeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenme.app/challenme";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A06529711AEDB79900CB5ABC /* Build configuration list for PBXProject "challenme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06529961AEDB79A00CB5ABC /* Debug */,
+				A06529971AEDB79A00CB5ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A06529981AEDB79A00CB5ABC /* Build configuration list for PBXNativeTarget "challenme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06529991AEDB79A00CB5ABC /* Debug */,
+				A065299A1AEDB79A00CB5ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A065299B1AEDB79A00CB5ABC /* Build configuration list for PBXNativeTarget "challenmeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A065299C1AEDB79A00CB5ABC /* Debug */,
+				A065299D1AEDB79A00CB5ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A065297D1AEDB79900CB5ABC /* challenme.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A065297E1AEDB79900CB5ABC /* challenme.xcdatamodel */,
+			);
+			currentVersion = A065297E1AEDB79900CB5ABC /* challenme.xcdatamodel */;
+			path = challenme.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A065296E1AEDB79900CB5ABC /* Project object */;
+}
